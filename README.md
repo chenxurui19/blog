@@ -10,11 +10,11 @@
 
 >博客前台效果展示：
 >
->![博客前台展示](README.assets/博客前台展示.png)
+><img src="README.assets/博客前台展示.png" alt="博客前台展示" style="zoom: 33%;" />
 >
 >博客后台展示：
 >
->![博客后台展示](README.assets/博客后台展示.png)
+><img src="README.assets/博客后台展示.png" alt="博客后台展示" style="zoom: 33%;" />
 
 ## 软件架构
 
