@@ -10,11 +10,11 @@
 
 >博客前台效果展示：
 >
-><img src="/Users/chenxurui/Desktop/截屏2023-02-17 23.24.25.png" alt="截屏2023-02-17 23.24.25" style="zoom: 25%;" />
+>![博客前台展示](README.assets/博客前台展示.png)
 >
 >博客后台展示：
 >
-><img src="/Users/chenxurui/Desktop/截屏2023-02-17 23.25.52.png" alt="截屏2023-02-17 23.25.52" style="zoom:25%;" />
+>![博客后台展示](README.assets/博客后台展示.png)
 
 ## 软件架构
 
