@@ -16,14 +16,14 @@ public class IpToAddressUtil {
         String s = sendGet(ip, KEY);
         Map map = JSONObject.parseObject(s, Map.class);
         String message = (String) map.get("message");
-        if("query ok".equals(message)){
+        if("Success".equals(message)){
             Map result = (Map) map.get("result");
-            Map addressInfo = (Map) result.get("ad_info");
-            String nation = (String) addressInfo.get("nation");
-            String province = (String) addressInfo.get("province");
-            //  String district = (String) addressInfo.get("district");
-            String city = (String) addressInfo.get("city");
-            String address = nation + "-" + province + "-" + city;
+            Map ad_info = (Map) result.get("ad_info");
+            String nation = (String) ad_info.get("nation");
+            String province = (String) ad_info.get("province");
+            String city = (String) ad_info.get("city");
+            String district = (String) ad_info.get("district");
+            String address = nation + province + city + district;
             return address;
         }else{
             System.out.println(message);
@@ -75,5 +75,4 @@ public class IpToAddressUtil {
         }
         return result;
     }
-
 }
